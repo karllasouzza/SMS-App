@@ -1,0 +1,22 @@
+<html>
+<head>
+    <script>
+            function enviar() {
+                var n = document.getElementById("numero").value;
+                var m = document.getElementById("mensagem").value;
+                Chamada.enviaSms(n, m);
+            }
+        </script>
+</head>
+<body>
+
+
+<form>
+    <p> Informe o Número </p>
+    <input type="text" id="numero"/>
+    <p> Informe a Mensagem </p>
+    <input type="text" id="mensagem"/>
+    <button onclick="enviar()">Enviar</button>
+</form>
+</body>
+</html>
